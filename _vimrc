@@ -90,7 +90,9 @@ if has('gui_running')
   " because Vim on Linux is often used for log files, where this setting is a
   " nuisance!
   " See http://stackoverflow.com/questions/235439/vim-80-column-layout-concerns
-  set colorcolumn=81
+  "
+  " Currently disabled while trialling sparkup HTML plugin
+  " set colorcolumn=81
 
   " Make the unnamed register the same as the clipboard register.  The unnamed
   " register is where text is stored when you yank it.  By making it the same

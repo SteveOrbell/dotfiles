@@ -1,8 +1,13 @@
 #!/bin/bash
 # Install vim configuration
 
-# Default location of vim config repo - edit if required
-VIM_CONFIG=~/Config
+# Default location of linux config repo - edit if required
+LINUX_CONFIG=~/linux-config
 
-ln -s $VIM_CONFIG/_vimrc ~/.vimrc
-ln -s $VIM_CONFIG/vimfiles ~/.vim
+# vim configuration
+ln -s $LINUX_CONFIG/_vimrc ~/.vimrc
+ln -s $LINUX_CONFIG/vimfiles ~/.vim
+
+# tmux configuration
+ln -s $LINUX_CONFIG/_tmux.conf ~/.tmux.conf
+

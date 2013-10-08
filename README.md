@@ -17,5 +17,4 @@ Linux:
 
 ##Todo##
 
-* Write install script(s)
-* Add tmux configuration
+* Update install script to handle upgrade
